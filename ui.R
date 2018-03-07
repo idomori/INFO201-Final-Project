@@ -3,7 +3,7 @@ library(markdown)
 library(shinythemes)
 shinyUI(fluidPage( theme= shinytheme("darkly"),
   navbarPage("New York Crime Rate",
-    tabPanel("Plot",
+    tabPanel("Visualize",
       sidebarLayout(
         sidebarPanel(
           selectInput("crimeChoices", label = "Choose the type of crime to visualize", 
@@ -15,12 +15,13 @@ shinyUI(fluidPage( theme= shinytheme("darkly"),
         ),
         mainPanel(
           plotlyOutput("graph"),  
-              column(12,
               sliderInput("animation", "Year",
                           min = 1990, max = 2015,
                           value = 1, step = 1,
-                          animate = animationOptions(interval = 800, loop = TRUE))
-            ))
+                          animate = animationOptions(interval = 900, loop = TRUE),
+                          width = '100%',
+                          sep = "")
+            )
         )
     ),
     tabPanel("Explore Data",
