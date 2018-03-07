@@ -12,7 +12,7 @@ They are entities that have a visible role in the operation and support of the s
 __Indirect stakeholders__ - data.gov, Division of Criminal Justice Services, Politicians, and New York police  
 Although they may not interact with the app, they play an important role as supporters who provide the detail information. The Division of Criminal Justice Services, the Federal Bureau of Investigation, and the New York police all are components in gathering the data displayed. Politicians may be affected by this visualization by citizens pushing policy and reform in regard to crimes, police enforcement, gun control, and county safety.
 
-### Dataset and Sources  
+## Dataset and Sources  
 The datasets we worked with was "Index, Violent, Property, and Firearm Rates By County: Beginning 1990 to 2016 in New York State." It can be found in the following link provided by data.gov:
 https://catalog.data.gov/dataset/index-violent-property-and-firearm-rates-by-county-beginning-1990
 
