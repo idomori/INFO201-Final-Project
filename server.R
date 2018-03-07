@@ -3,8 +3,14 @@ shinyServer(function(input, output) {
   graphMap <- function(var, year) {
     data <- df %>% filter(Year == year)
     full_data <- left_join(NY, data)
-    gg <- ggplot(full_data, aes(long,lat, group=group, fill=eval(as.name(var)), text=County)) + 
-      geom_polygon( col="white")
+    if (var == "Violent.Rate") {
+      gg <- ggplot(full_data, aes(long,lat, group=group, fill=Violent.Rate, text=County))
+    } else if (var == "Property.Rate") {
+      gg <- ggplot(full_data, aes(long,lat, group=group, fill=Property.Rate, text=County))
+    } else {
+      gg <- ggplot(full_data, aes(long,lat, group=group, fill=Firearm.Rate, text=County))
+    }
+    gg <- gg + geom_polygon( col="white") + labs(fill = var) + coord_map()
     ggplotly(gg)
   }
   

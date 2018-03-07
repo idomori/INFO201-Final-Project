@@ -2,7 +2,7 @@ source("data.R")
 library(markdown)
 library(shinythemes)
 shinyUI(fluidPage( theme= shinytheme("darkly"),
-                   navbarPage("New York Crime Rate",
+                navbarPage("New York Crime Rate",
                               tabPanel("Visualize",
                                        sidebarLayout(
                                          sidebarPanel(
