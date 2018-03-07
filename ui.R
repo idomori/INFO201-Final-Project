@@ -5,9 +5,9 @@ library(DT)
 library(dplyr)
 library(shiny)
 shinyUI(fluidPage(
-  theme = shinytheme("darkly"),
+  theme = shinytheme("flatly"),
   navbarPage(
-    "New York Crime Rate",
+    "New York Crime Report",
     tabPanel("Visualize",
              sidebarLayout(
                sidebarPanel(
@@ -40,7 +40,7 @@ shinyUI(fluidPage(
              )),
     tabPanel(
       "Explore Data",
-      basicPage(
+      fluidPage(
         h2(
           "Index, Violent, Property, and Firearm Rates By County: Beginning 1990"
         ),
