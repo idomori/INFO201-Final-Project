@@ -6,7 +6,7 @@ output: html_document
 
 Being apart of the Team, we were very interested in developing constructive approaches to improving the quality of projects if and when needed. Building on best organizational practices as well as using R and Shiny App, which advocated many strategies.
 
-To see our other collebaration:
+To see our other collaboration:
 https://github.com/info201b-wi2018/a7-collaboration-idomori
 
 ## About the Team Members
