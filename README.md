@@ -24,8 +24,9 @@ The datasets we worked with are "Index, Violent, Property, and Firearm Rates By 
 The Division of Criminal Justice Services collected the data, and can be accessed through the data.gov, Division of Criminal Justice Services.
 
 Following is the Link to dataset provided by data.gov:
-https://catalog.data.gov/dataset/index-violent-property-and-firearm-rates-by-county-beginning-1990
 ```
+https://catalog.data.gov/dataset/index-violent-property-and-firearm-rates-by-county-beginning-1990
+
 
 ```{r}
 Data shows overall crime rate
