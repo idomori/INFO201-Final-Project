@@ -2,52 +2,53 @@
 title: "infoaboutme.rmd"
 output: html_document
 ---
-#About the Team
+##About the Team
+
 Being apart of the Team, we were very interested in developing constructive approaches to improving the quality of projects if and when needed. Building on best organizational practices as well as using R and Shiny App, which advocated many strategies.
 
 To see our other collebaration:
 https://github.com/info201b-wi2018/a7-collaboration-idomori
 
-#About the Team Members
+##About the Team Members
 
-## Franklin Kong
+### Franklin Kong
 
 Class of 2020 at University of Washington, Seattle
 
 ```{r}
 Franklin takes many actions to help a joint project succeed, after having made a commitment to do so. Develop a clear architecture, with a shared vision and joint governance. His key is to leverage diverse skills and learning in the service of a joint objective.
 ```
-Want to know more? See the link under:
+Want to know more? See the link here:
 https://
 
-## Alanna Hu
+### Alanna Hu
 
 Class of 2018 at University of Washington, Seattle
 
 ```{r}
 Alanna combine ideas for innovations in a spirit of creation, building on distinctive strengths and constructive collaboration. Enhancing each other's ideas by saying "and" rather than "but" leads to new synergies with member with different potentials/skills.
 ```
-Want to know more? See the link under:
+Want to know more? See the link here:
 https://
 
-## Margaret Hsiao
+### Margaret Hsiao
 
 Class of 2021 at University of Washington, Seattle
 
 ```{r}
 Margaret focus collective energies on a meaningful task, a purposeful project, so as to find informations for sharing.  Also, set boundaries for collaboration such that valuable resources can be made available without fear of misuse or wasted effort.
 ```
-Want to know more? See the link under:
+Want to know more? See the link here:
 https://github.com/margarethsiao
 
-## Nick Yu
+### Nick Yu
 
 Class of 2020 at University of Washington, Seattle
 
 ```{r}
 Nick makes commitments to work on a shared project, with joint stakes in the outcomes, to foster mutual trust with an orientation toward the future. His key here is to make mutual commitments to carry out projects for joined gain.
 ```
-Want to know more? See the link under:
+Want to know more? See the link here:
 https://
 
 The above strategies we each have, work better in combination than alone, achieve closer alignment among people when implementing a strategy or developing a strategic alliance.  We create face-to-face encounters so that bridges can be built and deep dialogue takes place to produce a better coding and design.
