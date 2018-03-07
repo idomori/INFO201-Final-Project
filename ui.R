@@ -1,6 +1,7 @@
 source("data.R")
 library(markdown)
 library(shinythemes)
+library(mapproj)
 library(DT)
 library(dplyr)
 library(shiny)
