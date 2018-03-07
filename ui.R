@@ -4,7 +4,7 @@ fluidPage(
   titlePanel("New York Crime Rates | BC Boundless"),
   sidebarLayout(
     hr(), 
-    checkboxGroupInput("crimes", label = "Choose the type of crime to visualize", 
+    checkboxGroupInput("crimeChoices", label = "Choose the type of crime to visualize", 
                        choices = list("Violent Crimes" = "Violent.Rate", 
                                       "Property Crimes" = "Property.Rate",
                                       "Firearm Crimes" = "Firearm.Rate"), 
