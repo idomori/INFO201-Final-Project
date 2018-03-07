@@ -1,7 +1,7 @@
 # INFO201-Final-Project
 This is the final project repository for BC Boundless. The following link is for our Shiny App: https://alannahu.shinyapps.io/INFO201-Final-Project/
 
-#Visualizing crime rates in New York
+# Visualizing crime rates in New York
 
 In this project, we analyze government data from the Division of Criminal Justice Services in the state of New York about violent, property, and firearm rates by county. Our target audience are any concerned New York citizen and the tourism industry to explore crime rates. Our project provides a way to visual New York crime since 1990 and hopefully be a helpful guide to those travelers or citizens. We created a visual interactive map of New York to show the difference of violent, property, and firearm crimes over a nearly three decades. From this data, we hope viewers will use this data as a tool for policy change, travel planning, and reassessing the safety in New York. In addition, we have provided the data to explore.
 
