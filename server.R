@@ -68,7 +68,8 @@ shinyServer(function(input, output) {
                ))
     }
     gg <-
-      gg + geom_polygon(col = "white") + labs(fill = var) + coord_map()
+      gg + geom_polygon(col = "white") + labs(fill = var) + coord_map() + ggtitle("Crime Rates") +
+      theme(axis.title.x=element_blank(), axis.title.y=element_blank())
     ggplotly(gg)
   }
   
