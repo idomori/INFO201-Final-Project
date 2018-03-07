@@ -25,6 +25,34 @@ shinyUI(fluidPage( theme= shinytheme("darkly"),
         )
     ),
     tabPanel("Explore Data",
+         # library(shiny)
+         # library(DT)
+         # library(dplyr)
+         # 
+         # source("data.R")
+         # 
+         # ui <- basicPage(
+         #   h2("Index, Violent, Property, and Firearm Rates By County: Beginning 1990"),
+         #   DT::dataTableOutput("mytable")
+         # )
+         # 
+         # server <- function(input, output) {
+         #   table_data <- df
+         #   
+         #   names(table_data) <- c("County", "Year", "Population", "Crime Counts", "Crime Rate", 
+         #                          "Violent Crime Counts", "Violent Crime Rate",
+         #                          "Property Crime Counts", "Property Crime Rate", 
+         #                          "Firearm Counts", "Firearm Rate")
+         #   
+         #   table_data <- table_data %>%
+         #     select("County", "Year", "Population", "Crime Counts", "Crime Rate", 
+         #            "Violent Crime Counts", "Violent Crime Rate",
+         #            "Property Crime Counts", "Property Crime Rate")
+         #   
+         #   output$mytable = DT::renderDataTable({
+         #     table_data
+         #   })
+         # }
         verbatimTextOutput("summary")
     ),
     navbarMenu("More",
