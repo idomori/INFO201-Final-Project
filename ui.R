@@ -30,7 +30,7 @@ shinyUI(fluidPage( theme= shinytheme("darkly"),
     navbarMenu("More",
       tabPanel("About the Project",
         fluidRow(
-          # includeMarkdown("about.md")
+            includeMarkdown("tab3.Rmd")
         )), 
       tabPanel("About Us"#,
         # fluidRow(
