@@ -1,6 +1,9 @@
 source("data.R")
 library(markdown)
 library(shinythemes)
+library(DT)
+library(dplyr)
+library(shiny)
 shinyUI(fluidPage(
   theme = shinytheme("darkly"),
   navbarPage(
@@ -27,7 +30,7 @@ shinyUI(fluidPage(
                    "Year",
                    min = 1990,
                    max = 2015,
-                   value = 1,
+                   value = 2010,
                    step = 1,
                    animate = animationOptions(interval = 900, loop = TRUE),
                    width = '100%',
@@ -36,16 +39,11 @@ shinyUI(fluidPage(
                )
              )),
     tabPanel("Explore Data",
-         # library(shiny)
-         # library(DT)
-         # library(dplyr)
-         # 
          # source("data.R")
-         # 
-         # ui <- basicPage(
-         #   h2("Index, Violent, Property, and Firearm Rates By County: Beginning 1990"),
-         #   DT::dataTableOutput("mytable")
-         # )
+         basicPage(
+           h2("Index, Violent, Property, and Firearm Rates By County: Beginning 1990"),
+           DT::dataTableOutput("mytable")
+         ),
          # 
          # server <- function(input, output) {
          #   table_data <- df
