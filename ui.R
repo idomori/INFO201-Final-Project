@@ -8,7 +8,6 @@ shinyUI(fluidPage(
   sidebarLayout(
    
     sidebarPanel(
-      
       checkboxGroupInput("crimeChoices", label = "Choose the type of crime to visualize", 
                          choices = list("Violent Crimes" = "Violent.Rate", 
                                         "Property Crimes" = "Property.Rate",
@@ -16,7 +15,6 @@ shinyUI(fluidPage(
                          selected = "Violent Crimes"),
       fluidRow(column(3))
     ),
-   
     mainPanel(
       plotlyOutput("graph"),  
       sliderInput("animation", "Year",
