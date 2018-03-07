@@ -40,7 +40,6 @@ shinyUI(fluidPage(
              )),
     tabPanel(
       "Explore Data",
-      # source("data.R")
       basicPage(
         h2(
           "Index, Violent, Property, and Firearm Rates By County: Beginning 1990"
