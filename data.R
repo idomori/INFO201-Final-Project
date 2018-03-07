@@ -8,27 +8,19 @@ data$County <- tolower(data$County)
 data_2014 <- data %>% filter(Year == 2014)
 colnames(NY)[which(colnames(NY) == "subregion")] <- "County"
 
-full_data <- left_join(NY, data_2014)
-
-g <- list(
-  scope = 'usa',
-  projection = list(type = 'albers usa'),
-  lakecolor = toRGB('white')
-)
+full_data <- left_join(NY, data_2014) %>% group_by(group)
 
 
-p <- full_data %>%
-  group_by(group) %>%
-  plot_ly(
-    x = ~long,
-    y = ~lat,
-    fillcolor = 'white',
-    hoverinfo = "none"
-  ) %>% 
-  add_polygons(
-    line = list(color = 'black', width = 0.5)) %>%
-  layout(
-    geo = g
-  )  
 
-print(p)
+
+
+
+
+
+
+p <- ggplot(full_data, aes(long,lat, group= group, fill=Population, text=County)) + geom_polygon( col="white")
+
+a <- ggplotly(p)
+
+
+print(a)
