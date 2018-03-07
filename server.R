@@ -33,8 +33,6 @@ shinyServer(function(input, output) {
     table_data
   })
   
-  
-  
   graphMap <- function(var, year) {
     data <- df %>% filter(Year == year)
     full_data <- left_join(NY, data)
@@ -80,5 +78,4 @@ shinyServer(function(input, output) {
     })
   
   output$graph <- renderPlotly(currentGraph())
-  
 })
